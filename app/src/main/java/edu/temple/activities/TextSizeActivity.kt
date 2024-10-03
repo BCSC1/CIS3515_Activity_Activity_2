@@ -1,5 +1,6 @@
 package edu.temple.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -28,8 +29,6 @@ class TextSizeActivity : AppCompatActivity() {
             }
             layoutManager = LinearLayoutManager(this@TextSizeActivity)
         }
-
-
 
     }
 }
